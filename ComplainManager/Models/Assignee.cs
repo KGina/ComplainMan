@@ -8,7 +8,7 @@ namespace ComplainManager.Models
 {
     public class Assignee
     {
-        [Key]
+        //[Key]
         public int AssigneeID { get; set; }
         public string AssigneeName { get; set; }
         public string EmailAddress { get; set; }
@@ -16,6 +16,7 @@ namespace ComplainManager.Models
         public string Occupation { get; set; }
         public string StreetAddress { get; set; }
         public int IssueCategoryID { get; set; }
+        public virtual ICollection<Issue>Issues { get; set; }
 
 
     }

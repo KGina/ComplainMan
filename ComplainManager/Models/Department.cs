@@ -8,9 +8,10 @@ namespace ComplainManager.Models
 {
     public class Department
     {
-        [Key]
+        //[Key]
         public int DepartmnentID { get; set; }
         public string DeparmentName { get; set; }
         public string Priority { get; set; }
+        public virtual ICollection<Issue>Issues { get; set; }
     }
 }

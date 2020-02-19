@@ -177,7 +177,7 @@
     <Compile Include="Models\Assignee.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Issue.cs" />
-    <Compile Include="Models\IssueCategory.cs" />
+    <Compile Include="Models\Department.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\Status.cs" />
